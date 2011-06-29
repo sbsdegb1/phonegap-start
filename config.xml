@@ -37,8 +37,6 @@ version="1.0.0.0">
 
 	<icon src="icon.png" gap:role="default" />
 
-	<feature name="http://api.phonegap.com/1.0/geolocation"/>
-	<feature name="http://api.phonegap.com/1.0/network"/>
 
         <!-- Expose access to all URIs, including the file and http protocols -->
         <access subdomains="true" uri="*" />
