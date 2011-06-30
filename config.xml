@@ -17,6 +17,9 @@
 
          <license href="http://opensource.org/licenses/alphabetical">
   </license>
+
+         <!-- Expose access to all URIs, including the file and http protocols -->
+        <access uri="google.com" subdomains="true" />
         
         <!-- PhoneGap API -->
        <feature id="blackberry.system" required="true" version="1.0.0.0" />
@@ -41,8 +44,6 @@
         <feature name="http://api.phonegap.com/1.0/geolocation"/>
 	<feature name="http://api.phonegap.com/1.0/network"/>
 
-        <!-- Expose access to all URIs, including the file and http protocols -->
-        <access subdomains="true" uri="*" />
 
 	<!-- sample preference specification -->
 	<!-- <preference name="autorotate" value="false" readonly="true"/> -->
