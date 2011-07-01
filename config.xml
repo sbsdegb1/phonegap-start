@@ -19,7 +19,9 @@
   </license>
 
          <!-- Expose access to all URIs, including the file and http protocols -->
-        <access uri="google.com" subdomains="true" />
+        <access subdomains="true" uri="http://google.com"/>
+  <access subdomains="true" uri="http://gstatic.com"/>
+  <access subdomains="true" uri="http://googleapis.com"/> 
         
         <!-- PhoneGap API -->
        <feature id="blackberry.system" required="true" version="1.0.0.0" />
